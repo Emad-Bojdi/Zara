@@ -17,7 +17,7 @@ const Header = () => {
                 </div>
             </div>
             <div className="">
-                ZARA
+                <img src="/Logoo.svg" alt="" />
             </div>
             <div className="">
                 <Menu />
