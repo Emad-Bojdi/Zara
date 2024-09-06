@@ -7,9 +7,9 @@ const Topseller = () => {
         <h3 className="font-normal text-xl text-[#CB6146] font-Poppins">TOP SELLER</h3>
         <span className="w-64 h-[1px] bg-[#cb6146]"></span>
       </div>
-      <div className="flex flex-row justify-between mt-5">
+      
         <Slider/>
-      </div>
+      
       <button className="flex flex-row items-end text-[#A8472F] font-normal text-[16px] leading-[24px]  ">
           SHOW DETAIL 
           <span>
