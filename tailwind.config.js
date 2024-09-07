@@ -17,7 +17,8 @@ module.exports = {
       },
       fontFamily:{
         Poppins: ['Poppins' , 'serif'],
-        PlayfairDisplay: ['Playfair Dispaly' , 'serif']
+        PlayfairDisplay: ['Playfair Dispaly' , 'serif'],
+        Literata: ['Literata', 'serif']
       }
     },
   },

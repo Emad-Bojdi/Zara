@@ -19,9 +19,9 @@ const Winter = () => {
             </div>
             <div className="flex flex-row items-center justify-between mx-5">
                 <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828] font-PlayfairDisplay">25</span> :
-                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#460c0c] font-PlayfairDisplay">25</span> :
-                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828]">25</span> :
-                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828]">25</span>
+                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828] font-PlayfairDisplay">25</span> :
+                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828] font-PlayfairDisplay">25</span> :
+                <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828] font-PlayfairDisplay">25</span>
             </div>
             <div className="flex flex-row justify-around my-10 relative ">
                 <img src="/square-kuchic.svg" className=""/>

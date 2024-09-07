@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import styles from './styles.module.css';
 
 // import required modules
-import { Navigation ,Autoplay, Pagination ,Scrollbar } from 'swiper/modules';
+import { Navigation, Autoplay, Pagination, Scrollbar } from 'swiper/modules';
 import next from 'next';
 
 
@@ -25,20 +25,19 @@ export default function App() {
       <Swiper centeredSlides={true}
         autoplay={{
           delay: 2500,
-          disableOnInteraction: true,
+          disableOnInteraction: false,
         }}
         navigation={{
           nextEl: '.swiper-button-next',
-          prevEl:'.swiper-button-prev',
-          
+          prevEl: '.swiper-button-prev',
         }}
         modules={[Autoplay, Pagination, Navigation]} className={styles.mySwiper}>
-          {/* <div className="button-attr">
+        <div className="button-attr">
             <div className="button-swiper">
               <div className="swiper-button-prev swiper-button-disabled"></div>
-              <div className="swiper-button-next swiper-button-disabled"></div>
+              <div className="swiper-button-next">Next</div>
             </div>
-          </div> */}
+          </div>
         <SwiperSlide>
           <div className="flex flex-col justify-center">
             <img src='./Frame 18.svg' />
@@ -65,8 +64,6 @@ export default function App() {
           </div>
           <img src='Line 13.svg' />
         </div></SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
       </Swiper>
     </div>
   );
