@@ -10,13 +10,13 @@ const Cart = ({ image, title, desc, size, color, price }) => {
             </span>
             <div className="p-8 flex flex-row justify-between border border-[#DFDFDF] items-center">
                 <div className="">
-                    <img src={image} />
+                    <img src={image} alt="none"/>
                 </div>
                 <div className="flex flex-col items-between">
                     <p className="font-Poppins font-normal text-[10px] leading-[15px] text-[#404040] ">{title}</p>
                     <h2 className="font-Poppins font-normal text-[14px] leading-[21px] text-[#282828] "> {desc} </h2>
                     <div className="flex flex-row justify-start mt-3">
-                        <img src={color} />
+                        <img src={color} alt="none"/>
                         <p className="pl-8 font-Poppins font-normal text-[12px] leading-[18px] text-[#404040] "> {size} </p>
                     </div>
                 </div>

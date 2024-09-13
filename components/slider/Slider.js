@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+
 // Import Swiper React components
 
 // Import Swiper React components
@@ -13,7 +13,7 @@ import styles from './styles.module.css';
 
 // import required modules
 import { Navigation, Autoplay, Pagination, Scrollbar } from 'swiper/modules';
-import next from 'next';
+
 
 
 
