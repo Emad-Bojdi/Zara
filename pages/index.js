@@ -1,14 +1,49 @@
 import Header from "../components/Header";
 import Landing from "../components/Landing";
 import Footer from "../components/Footer"
+import { useState, useCallback, useEffect } from 'react';
 
+const useMediaQuery = (width) => {
+  const [targetReached, setTargetReached] = useState(false);
+
+  const updateTarget = useCallback((e) => {
+    if (e.matches) {
+      setTargetReached(true);
+    } else {
+      setTargetReached(false);
+    }
+  }, []);
+
+  useEffect(() => {
+    const media = window.matchMedia(`(max-width: ${width}px)`);
+    media.addListener(updateTarget);
+
+    // Check on mount (callback is not called until a change occurs)
+    if (media.matches) {
+      setTargetReached(true);
+    }
+
+    return () => media.removeListener(updateTarget);
+  }, []);
+
+  return targetReached;
+};
 
 export default function Home() {
+  const isBreakpoint = useMediaQuery(450);
+
   return (
     <>
-    <Header/>
-    <Landing/>
-    <Footer/>
+      {
+        isBreakpoint ? (
+          <>
+            <Header />
+            <Landing />
+            <Footer /></>
+        ) : <p>
+          Please use device with max width 450px
+        </p>
+      }
     </>
   );
 }
