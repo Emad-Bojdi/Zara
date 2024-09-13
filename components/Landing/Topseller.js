@@ -18,7 +18,7 @@ const Topseller = () => {
       <Link className="flex flex-row items-end text-[#A8472F] font-normal text-[16px] leading-[24px]  " href={"/detail"}>
         SHOW DETAIL
         <span>
-          <img src="./arrow-right.svg" className="pl-3" />
+          <img src="./arrow-right.svg" className="pl-3" alt='none'/>
         </span>
       </Link>
     </div>

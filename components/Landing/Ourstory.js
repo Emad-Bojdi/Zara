@@ -9,7 +9,7 @@ const OurStory = () => {
         <span className="w-64 h-[1px] bg-[#412017]"></span>
       </div>
       <div className="flex justify-center my-8">
-        <img src="/Text.svg" />
+        <img src="/Text.svg" alt='none'/>
       </div>
       <div className="">
         <p className="font-light text-[14px] leading-[30.8px] text-[#404040] font-poppins">
@@ -24,7 +24,7 @@ const OurStory = () => {
       </button>
       <hr className="text-[#DFDFDF]"/>
       <div className="flex flex-row justify-center items-end mt-10">
-        <img src="/Logoo.svg" className="pr-8" />
+        <img src="/Logoo.svg" className="pr-8" alt='none'/>
         <div className="flex flex-row justify-between items-center">
           <h3 className="font-normal text-[18px] leading-[28.8px] text-[#CB6146] pr-7 font-poppins">ON SOCIAL</h3>
           <span className="w-40 h-[1px] bg-[#cb6146]"></span>

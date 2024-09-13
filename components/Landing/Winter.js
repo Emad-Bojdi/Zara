@@ -24,12 +24,12 @@ const Winter = () => {
                 <span className="w-[83px] h-[95px] bg-white rounded-t-full flex flex-col justify-center items-center font-normal text-[40px] leading-[53.32px] text-[#282828] font-PlayfairDisplay">25</span>
             </div>
             <div className="flex flex-row justify-around my-10 relative ">
-                <img src="/square-kuchic.svg" className=""/>
+                <img src="/square-kuchic.svg" className="" alt='none'/>
                 <button className="w-[183px] h-[64px] border-2 border-[#A8472F] rounded-[4px] z-10 bg-[#F9E9E5] font-semibold text-[16px] leading-[25.2px] text-[#A8472F]">
                     Pre shop
                 </button>
                 <span className="w-[183px] h-[64px] border border-[#ca998d] absolute rounded-[4px] left-[114px] top-2 z-2"></span>
-                <img src="/square-kuchic.svg" />
+                <img src="/square-kuchic.svg" alt='none'/>
 
             </div>
         </div>

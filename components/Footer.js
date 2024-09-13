@@ -5,23 +5,23 @@ const Footer = () => {
         <div className="bg-[#A8472F] flex flex-col justify-center">
             <div className="flex flex-col items-center py-8 relative">
                 <span className="w-10 h-3 bg-[#D9D9D9] absolute rotate-[-45deg] left-16"></span>
-                <img src="./Footer.svg" />
+                <img src="./Footer.svg" alt='none'/>
                 <span className="w-10 h-3 bg-[#D9D9D9] absolute rotate-[-45deg] right-16 bottom-8"></span>
             </div>
             <div className="flex flex-row justify-around items-center my-4">
-                <img src="./Rec.svg" />
+                <img src="./Rec.svg" alt='none'/>
                 <div className="flex flex-col items-center">
                     <h1 className="font-medium italic text-[28px] leading-[44.8px] text-[#fff] font-PlayfairDisplay">flagship Store</h1>
                     <h3 className="font-medium italic text-[16px] leading-[25.6px] text-[#fff] mt-3 mb-5 font-PlayfairDisplay"> British, Blenheim St. </h3>
                     <button className=" font-normal text-[16px] leading-[25.6px] text-[#fff] border-b border-[#FFFCEE] font-Poppins">
                         FIND A STORE
                     </button>
-                    <img src="./Rec.svg" className="pt-5"/>
+                    <img src="./Rec.svg" className="pt-5" alt='none'/>
                 </div>
-                <img src="./Rec.svg" />
+                <img src="./Rec.svg" alt='none'/>
             </div>
             <div className="flex flex-row justify-around mx-5 items-end">
-                <img src="./Logo-White.svg" className="mr-16"/>
+                <img src="./Logo-White.svg" className="mr-16" alt='none'/>
                 <p className="font-normal text-[14px] leading-[22.4px] text-[#FFFCEE] font-PlayfairDisplay">Stay in yhe know for all things</p>
             </div>
             <div className="flex flex-row justify-center mx-5 my-8 relative">
@@ -31,7 +31,7 @@ const Footer = () => {
                     className="bg-inherit w-full border-b outline-none text-[#FFFCEE] placeholder:text-[#FFFCEE] placeholder:font-normal placeholder:text-[16px] placeholder:[leading-25.6px] placeholder:font-Poppins"
                 />
                 <button >
-                <img src="./arrow-right-w.svg" className="absolute right-[-5px] bottom-1"/>
+                <img src="./arrow-right-w.svg" className="absolute right-[-5px] bottom-1" alt='none'/>
                 </button>
             </div>
         </div>

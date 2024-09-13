@@ -40,29 +40,29 @@ export default function App() {
           </div>
         <SwiperSlide>
           <div className="flex flex-col justify-center">
-            <img src='./Frame 18.svg' />
+            <img src='./Frame 18.svg' alt='none'/>
             <div className="flex flex-row my-5 justify-between">
               <p className="">X Trench Coat</p>
               <p className="">$59</p>
             </div>
-            <img src='Line 13.svg' />
+            <img src='Line 13.svg' alt='none'/>
           </div>
         </SwiperSlide>
         <SwiperSlide> <div className="flex flex-col justify-center">
-          <img src='./Frame 19.svg' />
+          <img src='./Frame 19.svg' alt='none'/>
           <div className="flex flex-row my-5 justify-between">
             <p className="">Golden Coat With Jacket</p>
             <p className="">$99</p>
           </div>
-          <img src='Line 13.svg' />
+          <img src='Line 13.svg' alt='none'/>
         </div></SwiperSlide>
         <SwiperSlide> <div className="flex flex-col justify-center">
-          <img src='./Frame 20.svg' />
+          <img src='./Frame 20.svg' alt='none'/>
           <div className="flex flex-row my-5 justify-between">
             <p className="">Neo White Jacket</p>
             <p className="">$49</p>
           </div>
-          <img src='Line 13.svg' />
+          <img src='Line 13.svg' alt='none'/>
         </div></SwiperSlide>
       </Swiper>
     </div>
