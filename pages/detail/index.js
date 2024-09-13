@@ -1,11 +1,11 @@
-import React from 'react'
+
 
 const Detail = () => {
     return (
         <div className="mt-10 ">
             <div className='flex flex-row justify-between w-full '>
                 <div className="">
-                    <img src='/Detail.svg' className='w-[353px] h-[391px] ' />
+                    <img src='/Detail.svg' className='w-[353px] h-[391px] ' alt=''/>
                 </div>
                 <div className="h-[391px] flex flex-col items-center grow">
                     <div className="h-[300px] flex flex-col justify-center items-center grow">
@@ -29,7 +29,7 @@ const Detail = () => {
             <div className="flex flex-row justify-between items-center my-5 mx-4">
                 <h3 className=" font-medium text-[32px] leading-[42.66px] text-[#282828] font-PlayfairDisplay">OUR STORY</h3>
                 <span className="w-[135px] h-[1px] bg-[#DFDFDF]"></span>
-                <img src='/heart.svg' />
+                <img src='/heart.svg' alt=''/>
             </div>
             <div className='mx-4'>
                 <p className="font-poppins font-normal text-[12px] leading-[28.8px] text-[#7B7B7B]">
